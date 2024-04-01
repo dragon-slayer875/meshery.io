@@ -33,6 +33,7 @@ plugins:
   - jekyll-archives
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-minifier
   - jekyll-feed
   - jekyll-redirect-from
   - octopress-paginate
@@ -215,3 +216,6 @@ _comments:
 sass:
   style: compressed
   sourcemap: development
+
+jekyll-minifier:
+  compress_css: false
